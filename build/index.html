@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximun Living Cost</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class=" min-h-screen dark:bg-black dark:text-white overflow-x-hidden">
+    <section id="background-img-container">
+
+           <!-- THE BACKGROUND IMAGE -->
+        <div id="backround-image" class=" relative bg-black ">
+            <img class=" opacity-70" src="./img/imgs/home.png" alt="">
+        </div>
+    </section>
+
+        <!-- LOGO IMAGE -->
+    <section id="nav-container">
+        <nav id="nav-bar" class="">
+            <div id="logo" class="absolute top-2 left-4 w-24 sm:w-full sm:left-10 md:left-32 lg:left-52 " >
+                <img src="./img/imgs/logo.png" alt="">
+            </div>
+
+
+                <!-- THE SMALL SCREEN TOGGLE BUTTON -->
+            <div id="tog-btn" class="absolute top-2 right-4">
+                <button id="mobile-open-button" class="text-2xl sm:hidden focus:outline-none text-white">
+                     &#9776; 
+                </button>
+            </div>
+
+
+                 <!--THE ABSOLUTE ON TOP OF THE BACKGROUND IMAGE  -->
+            <div id="affordable" class=" "> 
+
+                        <!-- THE ABSOLUTE WRITE-UP -->
+                <p class=" text-white w-1/2 text-sm font-bold absolute top-12 left-4 sm:top-32 md:text-5xl md:w-1/4 md:left-32 md:top-56 lg:left-52 lg:top-72 lg:text-4xl">
+                    The most affortable place to stay in the san franciso bay area
+                </p>
+
+
+                        <!-- THE ABSOLUTE MAP -->
+                <div id="map" class=" w-1/3 absolute top-10 right-4 sm:right-10 sm:w-64 sm:top-20 md:right-32 md:top-32 lg:w-1/4 lg:top-44 lg:right-52">
+                    <img src="./img/imgs/Map.png" alt="">
+                </div>
+
+
+                        <!-- THE ABSOLUTE SEARCH SPACE -->
+                <div id="search-bar" class=" bg-white text-xs  absolute top-32 right-4 sm:right-16 sm:top-72 md:right-36 md:top-96 lg:right-56 lg:top-3/4 lg:w-80 border rounded-md">
+                    <p class=" text-base inline-flex  pl-1 sm:py-2 lg:pl-4">
+                        all type  <span class=" pl-2  lg:pl-5">Neighborhood</span>  <span><img class=" bg-blue-500 w-6 ml-8 lg:ml-14" src="./img/icon/vectors.png" alt=""></span>
+                    </p>
+                </div>
+
+                <nav id="second-nav-bar" class="hidden sm:block space-x-8 md:text-xl absolute top-2 right-32 lg:right-96 text-white" aria-label="main">
+                    <a href="#homepage" class="hover">Home</a>
+                    <a href="#landlord" class="hover">Landlord</a>
+                    <a href="#Tenant" class="hover">Tenant</a>
+                    <a href="#contactus" class="hover">Contact Us</a>
+                </nav>
+            </div>
+        </nav>
+        <hr class=" absolute top-2 h-1 bg-white">
+    </section>
+
+    
+
+                <!-- --------------THE MAIN BODY--------------- -->
+
+    <main class=" mb-20 mx-4">
+
+        <div id="minimum-header" class="">
+            <p class="text-2xl text-center mt-5 sm:text-3xl sm:mt-10">
+                Minimum Living Cost Takes Tare Of Everything
+            </p>
+        </div>
+
+
+                 <!-- ---------COL-1 ELEMENTS------ -->
+        <section id="col-1">
+            <div class=" sm:-ml-8 sm:flex sm:justify-between items-center md:w-4/5 md:m-auto">
+                <div class=" ">
+                    <img class=" md:w-2/3" src="./img/imgs/unsplash_oGmf8o53LeE.png" alt="">
+                </div>
+    
+                <!-- ---------------------------- -->
+                <div class=" md:-ml-44">
+                    <div class=" sm:w-24">
+                        <img src="./img/icon/Vector.png" alt="">
+                        <p class=" text-3xl mb-10 sm:text-sm md:text-lg">Pay as Little as possible!</p>
+                    </div>
+    
+                    <div class=" sm:w-24">
+                        <img src="./img/icon/Vector (6).png" alt="">
+                        <p class=" sm:text-sm text-3xl mb-10 md:text-lg">Enjoy peaceful Environment!</p>
+                    </div>
+                </div>
+    
+                <!-- --------------------- -->
+                <div class="">
+                    <div class=" sm:w-24">
+                        <img src="./img/icon/Vector (5).png" alt="">
+                        <p class=" sm:text-sm text-3xl mb-10 md:text-lg">Enjoy wisdom of community!</p>
+                    </div>
+    
+                    <div class=" sm:w-24">
+                        <img src="./img/icon/Vector (7).png" alt="">
+                        <p class=" sm:text-xs text-3xl mb-10 md:text-lg">Stay Safe! Save Money!</p>
+                    </div>
+                </div>
+    
+                <!-- ------------------------ -->
+    
+                <div class="">
+                    <div class=" sm:w-24 md:w-40">
+                        <img src="./img/icon/Vector (2).png" alt="">
+                        <p class="sm:text-xs text-3xl mb-10 md:text-lg">Let's somebody else take care of Landlord!</p>
+                    </div>
+    
+                    <div class=" sm:w-24">
+                        <img src="./img/icon/Vector (4).png" alt="">
+                        <p class="sm:text-sm text-3xl mb-10 md:text-lg">Pay for what you use !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class=" sm:hidden">
+
+
+                <!-- -------THE LIST OF PROPERTIES BUTTON-------- -->
+
+        <section id="col-2" class=" bg-gray-100 py-5">
+            <section id="col-2-inner">
+                <div class=" my-10 sm:flex justify-between md:w-3/4 m-auto">
+                    <p class="text-3xl">List of Properties</p>
+                    <button id="property-btn" class=" bg-orange-400 p-3">View All Properties</button>
+                </div>
+    
+    
+    
+                            <!-- ---------THE LIST OF PROPERTIES------ -->
+                <div id="properties-container" class="">
+                    <div id="ppty-col-1" class=" w-full sm:flex justify-between lg:w-4/5 lg:m-auto">
+                        
+                        <div class=" my-10 items-center sm:mx-10 md:w-72 ">
+                            <img src="./img/imgs/unsplash_Eh_It1hg4Hs.png" alt="">
+    
+                            <div class="border rounded-b-2xl shadow-2xl shadow-slate-300">
+                                <p class=" font-bold">2578 Folsom street, san francisco, CA, 94110</p>
+                                <p class=" text-sm pt-2">Private Room</p>
+                                <p class=" font-bold text-orange-500">$1200/month</p>
+                                <div id="smaii-icons" class=" w-11/12 flex justify-between mb-5">
+                                    <div class=" flex"><img class=" " src="./img/imgs/Path.png" alt=""> <span class="pl-2"><a>4</a></span></div>
+                                    <div class="flex"><img src="./img/imgs/Shape.png" alt=""> <span class="pl-2"><a>2</a></span></div>
+                                    <p class=""># <span class="pl-2">2</span></p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="">
+                            <div class=" sm:mt-9 sm:w-4/5">
+                                <img src="./img/imgs/unsplash_2d4lAQAlbDA.png" alt="">
+                                <div class="border rounded-b-2xl">
+                                    <p class=" font-bold">2578 Folsom street, san francisco, CA, 94110</p>
+                                    <p class=" text-sm pt-2">Private Room</p>
+                                    <p class=" font-bold text-orange-500">$1200/month</p>
+                                    <div id="smaii-icons" class=" w-11/12 flex justify-between mb-5 sm:">
+                                        <div class=" flex"><img class=" " src="./img/imgs/Path.png" alt=""> <span class="pl-2"><a>4</a></span></div>
+                                        <div class="flex"><img src="./img/imgs/Shape.png" alt=""> <span class="pl-2"><a>2</a></span></div>
+                                        <p class=""># <span class="pl-2">2</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="">
+                            <div class=" my-10 sm:w-4/5">
+                                <img src="./img/imgs/unsplash_T6d96Qrb5MY.png" alt="">
+                                <div class="border rounded-b-2xl">
+                                    <p class=" font-bold">2578 Folsom street, san francisco, CA, 94110</p>
+                                    <p class=" text-sm pt-2">Private Room</p>
+                                    <p class=" font-bold text-orange-500">$1200/month</p>
+                                    <div id="smaii-icons" class=" w-11/12 flex justify-between mb-5">
+                                        <div class=" flex"><img class=" " src="./img/imgs/Path.png" alt=""> <span class="pl-2"><a>4</a></span></div>
+                                        <div class="flex"><img src="./img/imgs/Shape.png" alt=""> <span class="pl-2"><a>2</a></span></div>
+                                        <p class=""># <span class="pl-2">2</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <hr class="sm:hidden ">
+    
+    
+            <section id="col-3" class="">
+                <div id="properties-container" class="">
+                    <div id="ppty-col-1" class=" sm:flex justify-between lg:w-4/5 lg:m-auto">
+                        <div class=" my-10 sm:mx-10 md:w-72">
+                            <img src="./img/imgs/unsplash_KQgrVfR3r74.png" alt="">
+                            <div class="border rounded-b-2xl shadow-2xl shadow-slate-300">
+                                <p class=" font-bold">2578 Folsom street, san francisco, CA, 94110</p>
+                                <p class=" text-sm pt-2">Private Room</p>
+                                <p class=" font-bold text-orange-500">$1200/month</p>
+                                <div id="smaii-icons" class=" w-11/12 flex justify-between mb-5">
+                                    <div class=" flex"><img class=" " src="./img/imgs/Path.png" alt=""> <span class="pl-2"><a>4</a></span></div>
+                                    <div class="flex"><img src="./img/imgs/Shape.png" alt=""> <span class="pl-2"><a>2</a></span></div>
+                                    <p class=""># <span class="pl-2">2</span></p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="">
+                            <div class=" mt-10 sm:w-4/5">
+                                <img src="./img/imgs/unsplash_UV81E0oXXWQ.png" alt="">
+                                <div class="border rounded-b-2xl">
+                                    <p class=" font-bold">2578 Folsom street, san francisco, CA, 94110</p>
+                                    <p class=" text-sm pt-2">Private Room</p>
+                                    <p class=" font-bold text-orange-500">$1200/month</p>
+                                    <div id="smaii-icons" class=" w-11/12 flex justify-between mb-5">
+                                        <div class=" flex"><img class=" " src="./img/imgs/Path.png" alt=""> <span class="pl-2"><a>4</a></span></div>
+                                        <div class="flex"><img src="./img/imgs/Shape.png" alt=""> <span class="pl-2"><a>2</a></span></div>
+                                        <p class=""># <span class="pl-2">2</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="">
+                            <div class=" my-10 sm:w-4/5">
+                                <img src="./img/imgs/unsplash_uDtC-1NLEzU.png" alt="">
+                                <div class="border rounded-b-2xl">
+                                    <p class=" font-bold">2578 Folsom street, san francisco, CA, 94110</p>
+                                    <p class=" text-sm pt-2">Private Room</p>
+                                    <p class=" font-bold text-orange-500">$1200/month</p>
+                                    <div id="smaii-icons" class=" w-11/12 flex justify-between mb-5 ">
+                                        <div class=" flex "><img class=" " src="./img/imgs/Path.png" alt=""> <span class="pl-2"><a>4</a></span></div>
+                                        <div class="flex"><img src="./img/imgs/Shape.png" alt=""> <span class="pl-2"><a>2</a></span></div>
+                                        <p class=""># <span class="pl-2">2</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="properties-num" class=" border sm:border-none w-11/12  flex justify-between sm:justify-start  m-auto sm:w-1/6">
+                    <button class="border w-12" type="button">First</button> 
+                    <button class="border w-10" type="button">1</button>
+                    <button class="border w-10 bg-orange-500" type="button">2</button>
+                    <button class="border w-10" type="button">3</button>
+                    <button class="border w-16" type="button">Next</button>
+                </div>
+            </section>
+        </section>
+        
+                <!-- ---------THE FLEXIBILITY OPTION AREA------- -->
+
+                <!-- --------FOR SMALL SCREEN---------- -->
+
+        <section id="col-4-flexibility-options">
+            <div class=" ">
+                <div id="flexi-picture" class=" pt-10 sm:max-w-xs sm:m-auto md:hidden">
+                    <div id="flexy-inner-1" class="flex justify-between">
+                        <img class=" w-28" src="./img/imgs/flexible.png" alt="">
+                        <img class=" w-28" src="./img/imgs/cleaning.png" alt="">
+                    </div>
+    
+                    <div id="flex-inner-2" class=" my-10 flex justify-between">
+                        <img class=" w-28" src="./img/imgs/happiness.png" alt="">
+                        <img class=" w-28" src="./img/imgs/roomate.png" alt="">
+                    </div>
+                </div>
+
+
+                <div id="flexibility-text" class=" md:hidden md:w-1/2 border">
+                    <p class=" font-bold text-2xl text-center m-auto sm:w-1/2 py-5">
+                        Flexibility and options to suit your lifestyle.
+                    </p>
+                    <p class="mt-3 sm:w-1/2 sm:m-auto">
+                        You need it? We got it. We make finding your next home easy, 
+                        comfortable, and simple. From our happiness guarantee to our 
+                        selective roommate finder option. We provide you the flexibility that you most desire.
+                    </p>
+                    <div class=" sm:w-1/6 sm:m-auto sm:items-center">
+                        <button class=" bg-orange-500  w-32 h-10 mt-5" type="button">Search Rooms</button>
+                    </div>
+                </div>
+                <hr class=" mt-5 sm:hidden">
+
+
+                <!-- THE BIGGER SCREEN FOR THE FLEXIBILITY AREA -->
+                <div id="flexi-picture" class=" hidden md:block mt-10 w-11/12 m-auto">
+                    <div class=" flex justify-between items-center">
+                        <div class=" ">
+                            <div class=" flex justify-between w-3/4">
+                                <div id="flexy-inner-1" class=" mr-5">
+                                    <img class=" " src="./img/imgs/flexible.png" alt="">
+                                    <img class=" my-5" src="./img/imgs/cleaning.png" alt="">
+                                </div>
+                
+                                <div id="flex-inner-2" class=" my-10">
+                                    <img class=" " src="./img/imgs/happiness.png" alt="">
+                                    <img class=" my-5" src="./img/imgs/roomate.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div id="flexibility-text" class="  md:w-2/5">
+                            <p class=" font-bold text-4xl text-center md:text-left">
+                                Flexibility and options to suit your lifestyle.
+                            </p>
+                            <p class="mt-3 sm:w-1/2 sm:m-auto md:m-0 md:text-xs text-left">
+                                You need it? We got it. We make finding your next home easy, 
+                                comfortable, and simple. From our happiness guarantee to our 
+                                selective roommate finder option. We provide you the flexibility that you most desire.
+                            </p>
+                            <div class=" sm:w-1/6 sm:m-auto md:m-0 sm:items-center">
+                                <button class=" bg-orange-500  w-32 h-10 mt-5" type="button">Search Rooms</button>
+                            </div>
+                        </div>
+                        <hr class=" mt-5 sm:hidden">
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        
+        <!-- -------WHERE  TO ADD NEW PROPERTY----- -->
+        <section id="col-5">
+            <div id="customize-property" class="">
+                <p class=" mt-16 mb-5 text-lg text-center font-bold">
+                    Your property with us and be Confident that Your Room will be Filled Out!
+                </p>
+                <h3 class=" text-orange-500 text-2xl text-center font-bold">
+                    Add A New Property
+                </h3>
+            </div>
+
+
+                    <!-- ---------THE FORM SECTION-------- -->
+
+            <div class="">
+                <div class=" md:w-3/4 md:m-auto">
+                    <div id="required-fill" class=" pt-10">
+                        <p class="text-red-700">
+                            All <span class="text-orange-500 font-bold">( * )</span> fields are required
+                        </p>
+                    </div>
+                            
+                    <div id="form-col-1" class=" mt-10 md:flex justify-between items-center">
+                        <div id="for-name" class="">
+                            <form action="/." method="post" class=" md:mt-5">
+                                <label for="name">Full Name <span class=" text-orange-400">*</span></label> <br>
+                                <input id="name" name="name" type="text" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+        
+                        <div id="for-address" class="mt-5">
+                            <form action="/." method="post">
+                                <label for="address">Address <span class=" text-orange-400">*</span></label> <br>
+                                <input  id="address" name="address" type="text" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+        
+                        <div id="for-unit-number" class=" mt-5">
+                            <form action="/." method="post">
+                                <label for="unit-number">Unit Number <span class=" text-orange-400">*</span></label> <br>
+                                <input id="unit-number" name="unit-number" type="number" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+                    </div>
+        
+                    
+                    <div id="form-col-2 " class=" md:flex justify-between">
+                        <div id="for-city" class=" mt-5">
+                            <form action="/." method="post">
+                                <label for="city">City <span class=" text-orange-400">*</span></label> <br>
+                                <input id="city" name="city" type="text" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+        
+                        <div id="for-state" class="mt-5">
+                            <form action="/." method="post">
+                                <label for="state">State <span class=" text-orange-400">*</span></label> <br>
+                                <input id="state" name="state" type="text" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+        
+                        <div id="for-room-type" class=" mt-5">
+                            <form action="/." method="post">
+                                <label for="room-type">Room Type <span class=" text-orange-400">*</span></label> <br>
+                                <input id="room" name="room" type="text" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+                    </div>
+        
+        
+                    <div id="form-col-3" class=" md:flex justify-between">
+                        <div id="for-price" class=" mt-5">
+                            <form action="/." method="post">
+                                <label for="price">Price <span class=" text-orange-400">*</span></label> <br>
+                                <input id="price" name="price" type="number" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+        
+                        <div id="for-negotiable" class="mt-5">
+                            <form action="/." method="post">
+                                <label for="negotiable">Negotiable? <span class=" text-orange-400">*</span></label> <br>
+                                <input id="negotiable" name="negotiable" type="text" required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+        
+                        <div id="for-phone-no" class=" mt-5">
+                            <form action="/." method="post">
+                                <label for="phone-no">Phone No. <span class=" text-orange-400">*</span></label> <br>
+                                <input id="phone-no" name="phone-no" type="tel"required class=" w-full bg-slate-300">
+                            </form>
+                        </div>
+                    </div>
+        
+                    <div id="for-description" class=" mt-5">
+                        <form action="/." method="post">
+                            <label for="description">Description <span class=" text-orange-400">*</span></label> <br>
+                            <input id="description" name="description" type="text" required class=" w-full h-56 bg-slate-300">
+                        </form>
+                    </div>
+        
+                        <!-- UPLOAD IMAGE FOR SMALL DEVICES AND LARGER DEVICES -->
+                    <div id="upload-1" class=" mt-5 md:hidden">
+                        <form action="" method="post">
+                            <label for="upload">Upload Photos</label> <br>
+                            <input id="upload" name="upload" type="file" class="border-2 border-orange-600 border-dashed w-full">
+                        </form>
+                    </div>
+        
+                    <div id="upload-2" class=" mt-5 hidden md:block">
+                        <p id="upload-photo" class="">Upload Photo</p>
+                        <div class=" border-orange-500 border-2 border-dashed w-full text-center py-20">
+                            <p id="the-drag-page" >
+                                Drag your images here, or <a class="text-orange-500 font-bold" href="#">browse</a>
+                            </p>
+                            <p id="file-type" class=" text-xs text-gray-500">
+                                Supported:  JPG, JPEG, PNG
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div id="add-property" class="w-fit m-auto mt-5">
+                        <button class="bg-orange-500 py-2 px-10" type="button">Add Properties</button>
+                    </div>
+                    <hr class="mt-3 md:hidden">
+                </section>
+                </div>
+            </div>
+
+
+                <!-- ------THE VIDEO PLAYER SECTION--------- -->
+
+        <section id="col-6-of-harry">
+            <div id="col-6-container" class=" md:mt-10 md:w-2/3 m-auto md:flex items-center">
+                <div class="">
+                    <p class=" mt-10 md:w-1/2 md:text-xs">
+                        &#8220 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. 
+                        Curabitur at odio sit amet liberovulputate efficitur ac nec justo. Nulla vitae mauris quam. 
+                        Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus. &#8221
+                    </p>
+                    <div class="flex mt-3">
+                        <img class=" md:w-7" src="./img/imgs/wilson.png" alt="">
+                        <div class="ml-5 md:text-xs">
+                            <p class=" text-orange-500">Harry wilson</p>
+                            <p class="">property Owner</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="video-play" class=" mt-3 ">
+                    <img src="./img/imgs/content-card-item-8.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <hr class=" my-20 h-px border-none bg-orange-500">
+
+
+
+                <!-- --------THE FOOTER SECTION------- -->
+
+        <section id="col-7-footer">
+            <footer>
+                <div id="footer-container" class=" md:flex justify-between items-center m-auto md:w-2/3 lg:w-1/2">
+                    <div id="footer-logo" class=" mb-8 md:mt-8">
+                        <img class=" bg-orange-500 m-auto p-5" src="./img/imgs/logo.png" alt="">
+                    </div>
+
+                    <div id="footer-address-and-socials" class="md:text-xs">
+                        <div id="location-address" class=" mb-5 md:inline-flex ">
+                            <img class="" src="./img/icon/location.png" alt="">
+                            <p class=" md:ml-2">345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
+                        </div>
+
+                        <div id="contacts" class=" md:flex justify-between">
+                            <div class=" inline-flex ">
+                                <img src="./img/icon/Path.png" alt="">
+                                <p class="">: (+234) 70 000 00 000</p>
+                            </div>
+                            <div class=" inline-flex">
+                                <img src="./img/icon/fax.png" alt="">
+                                <p class="">: (123) 456-7890</p>
+                            </div>
+                        </div>
+                    
+                    
+
+                        <div id="socials" class="">
+                            <p class=" py-5">
+                                <a>Social Media: 
+                                    <span class=" inline-flex">
+                                        <img class="ml-2" src="./img/icon/Facebook.png" alt="">
+                                        <img class="ml-2" src="./img/icon/Twitter.png" alt="">
+                                        <img class="ml-2" src="./img/icon/LinkedIn.png" alt="">
+                                        <img class="ml-2" src="./img/icon/Youtube.png" alt="">
+                                        <img class="ml-2" src="./img/icon/Instagram.png" alt="">
+                                        <img class="ml-2" src="./img/icon/GooglePlus.png" alt="">
+                                        <img class="ml-2" src="./img/icon/Pinterest.png" alt="">
+                                        <img class="ml-2" src="./img/icon/RSS.png" alt="">
+                                    </span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <section id="col-8">
+            <div id="col-8-container" class="">
+                <div class=" md:text-center md:mt-20">
+                    <ul class=" md:space-x-8 ">
+                        <li class=" md:inline-block">About us</li>
+                        <li class=" md:inline-block">Contact us</li>
+                        <li class=" md:inline-block">Help</li>
+                        <li class=" md:inline-block">Privacy Policy</li>
+                        <li class=" md:inline-block">Disclaimer</li>
+                    </ul>
+                </div>
+            </div>
+
+
+                    <!-- COPYRIGHT AREA -->
+            <div class="">
+                <p class=" text-gray-400 my-14 text-xs text-center">
+                    Copyright © 2020 Minimumlivingcost. All rights reserved
+                </p>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
